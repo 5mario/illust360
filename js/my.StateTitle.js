@@ -146,9 +146,9 @@ ilstApp.StateTitle = class extends ilstApp.StateBase{
       ,cntxt: $SP.lyrs[my.lyr.dlg].cntxt
 
       ,ex: {
-         pg: [{ttl: "はじめましょう。",     txt: "あなたのイラストは360°に動きます。", img: "tutorial_0"}
-             ,{ttl: "イラストを描きます。", txt: "お好きなツールを使いましょう。",     img: "tutorial_1"}
-             ,{ttl: "保存をしましょう。",   txt: "右上のボタンを押して保存できます。", img: "tutorial_2"}]
+         pg: [{ttl: "はじめましょう。",     txt: "あなたのイラストは360°に動きます。", img: null}
+             ,{ttl: "イラストを描きます。", txt: "お好きなツールを使いましょう。",     img: null}
+             ,{ttl: "保存をしましょう。",   txt: "右上のボタンを押して保存できます。", img: null}]
 
         ,tapEvntStrt: function(stat) {
           if(this.ex.pgNow == this.ex.pg.length - 1) {
