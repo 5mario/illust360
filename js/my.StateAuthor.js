@@ -18,9 +18,10 @@ ilstApp.StateAuthor = class extends ilstApp.StateBase{
     ilstApp.R.setBsUrl("img/");
 
     // 登録
-    ilstApp.R.add("ilstApp_tutorial_0.png", "tutorial_0");
-    ilstApp.R.add("ilstApp_tutorial_1.png", "tutorial_1");
-    ilstApp.R.add("ilstApp_tutorial_2.png", "tutorial_2");
+//     githubで公開すると読み込みエラーが発生するため読み込まない
+//     ilstApp.R.add("ilstApp_tutorial_0.png", "tutorial_0");
+//     ilstApp.R.add("ilstApp_tutorial_1.png", "tutorial_1");
+//     ilstApp.R.add("ilstApp_tutorial_2.png", "tutorial_2");
 
     var $this = this;
     // ダウンロード
