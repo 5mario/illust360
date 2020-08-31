@@ -17,7 +17,8 @@ window.onload = function() {
   var stt = new ilstApp.StateLst();   // State リストの作成
 
   // state の追加
-  stt.add(new ilstApp.StateAuthor());   //  著作権画面
+//   ファイル読み込み時にエラーが発生するので著作権画面は読み込まない
+//   stt.add(new ilstApp.StateAuthor());   //  著作権画面
   stt.add(new ilstApp.StateTitle());    //  タイトル画面
   stt.add(new ilstApp.StateMain());     //  メイン画面
 
